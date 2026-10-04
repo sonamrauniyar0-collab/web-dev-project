@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gharelu Chips | A Crunch of Happiness</title>
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <a href="#home" class="logo">
+      <i class="fa-solid fa-cookie-bite"></i> Gharelu Chips
+    </a>
+
+    <nav>
+      <ul class="desktop-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Our Products</a></li>
+        <li><a href="#video">Our Video</a></li>
+        <li><a href="#contact" class="contact-btn">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <button class="menu-toggle" id="openMenu"
+      aria-label="Open menu" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </header>
+
+  <!-- MOBILE MENU OVERLAY -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- MOBILE SIDEBAR -->
+  <aside class="sidebar" id="sidebar" aria-hidden="true">
+    <div class="sidebar-top">
+      <a href="#home" class="logo">Gharelu Chips</a>
+      <button class="close-menu" id="closeMenu"
+        aria-label="Close menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <ul>
+      <li><a href="#home" class="sidebar-link">Home</a></li>
+      <li><a href="#about" class="sidebar-link">About Us</a></li>
+      <li><a href="#products" class="sidebar-link">Our Products</a></li>
+      <li><a href="#video" class="sidebar-link">Our Video</a></li>
+      <li><a href="#contact" class="sidebar-link">Contact Us</a></li>
+    </ul>
+  </aside>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="tag">Welcome to Gharelu Chips</p>
+        <h1>A Crunch of Happiness in Every Bite!</h1>
+        <p>
+          Enjoy the delicious taste of crispy chips.
+          Made for sharing, perfect for every moment
+          and full of happiness.
+        </p>
+        <a href="#products" class="primary-btn">
+          Explore Our Products
+        </a>
+      </div>
+    </section>
+
+    <!-- ABOUT US -->
+    <section id="about">
+      <div class="about">
+        <div class="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=900"
+            alt="Golden crispy potato chips">
+        </div>
+
+        <div class="about-content">
+          <h2>About Gharelu Chips</h2>
+          <p>
+            Welcome to Gharelu Chips, an imaginary snack
+            company founded by Sonam and Shivnarayan.
+            Our vision is to bring joy to every home
+            through tasty, crispy and flavorful chips.
+          </p>
+          <p>
+            We believe that snacks bring people together.
+            Gharelu Chips is inspired by the happiness
+            of sharing delicious food with family
+            and friends.
+          </p>
+          <p class="team-names">
+            <i class="fa-solid fa-users"></i>
+            Our Team: Sonam & Shivnarayan
+          </p>
+          <a href="#contact" class="primary-btn">
+            Get in Touch
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section class="products" id="products">
+      <div class="section-title">
+        <h2>Our Delicious Products</h2>
+        <p>Discover the crunch and flavor of Gharelu Chips.</p>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=800"
+            alt="Classic crispy potato chips">
+          <div class="product-info">
+            <h3>Classic Potato Chips</h3>
+            <p>
+              Enjoy the classic crispy taste of
+              golden potato chips for every occasion.
+            </p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=800"
+            alt="Golden fried potato chips">
+          <div class="product-info">
+            <h3>Golden Crunch Chips</h3>
+            <p>
+              Delicious golden chips with a satisfying
+              crunch in every bite.
+            </p>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img
+            src="https://images.unsplash.com/photo-1518013431117-eb1465fa5752?w=800"
+            alt="Crispy fries and potato snacks">
+          <div class="product-info">
+            <h3>Special Snack Chips</h3>
+            <p>
+              A tasty snack option for sharing
+              with your friends and family.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section id="why-us">
+      <div class="section-title">
+        <h2>Why Choose Gharelu Chips?</h2>
+        <p>Our values make every snack moment special.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <i class="fa-solid fa-heart"></i>
+          <h3>Made with Love</h3>
+          <p>
+            Inspired by homemade snacks
+            and the joy of sharing.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <i class="fa-solid fa-cookie-bite"></i>
+          <h3>Delicious Taste</h3>
+          <p>
+            A delightful snack experience
+            for every chip lover.
+          </p>
+        </div>
+
+        <div class="why-card">
+          <i class="fa-solid fa-face-smile"></i>
+          <h3>Happy Moments</h3>
+          <p>
+            Bringing friends and families
+            together through snacks.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEO SECTION -->
+    <section class="video-section" id="video">
+      <div class="section-title">
+        <h2>Discover Gharelu Chips</h2>
+        <p>
+          Click the play button to watch our
+          introduction video.
+        </p>
+      </div>
+
+      <div class="video-preview">
+        <img
+          src="https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=1200"
+          alt="Gharelu Chips video preview">
+
+        <button class="play-btn" id="playVideo"
+          aria-label="Play introduction video">
+          <i class="fa-solid fa-play"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- VIDEO MODAL -->
+    <div class="modal" id="videoModal"
+      role="dialog" aria-modal="true"
+      aria-label="Gharelu Chips introduction video">
+
+      <div class="modal-content">
+        <button class="close-modal" id="closeModal"
+          aria-label="Close video">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <video id="companyVideo" controls playsinline>
+          <source
+            src="https://www.w3schools.com/html/mov_bbb.mp4"
+            type="video/mp4">
+          Your browser does not support video playback.
+        </video>
+      </div>
+    </div>
+
+    <!-- CONTACT US -->
+    <section id="contact">
+      <div class="section-title">
+        <h2>Contact Us</h2>
+        <p>
+          We would love to hear from you.
+          Get in touch with our team.
+        </p>
+      </div>
+
+      <div class="contact-container">
+
+        <!-- CONTACT DETAILS -->
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p>
+            Have questions or want to know more about
+            Gharelu Chips? Contact us through phone
+            or email.
+          </p>
+
+          <p>
+            <i class="fa-solid fa-users"></i>
+            Sonam and Shivnarayan
+          </p>
+
+          <p>
+            <i class="fa-solid fa-location-dot"></i>
+            Kathmandu, Nepal
+          </p>
+
+          <p>
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:9815374858">9815374858</a>
+          </p>
+
+          <p>
+            <i class="fa-solid fa-envelope"></i>
+            <a href="mailto:sonamrauniyar0@gmail.com">
+              sonamrauniyar0@gmail.com
+            </a>
+          </p>
+
+          <h3>Follow Us</h3>
+
+          <div class="social-icons">
+            <a href="https://www.facebook.com/"
+              target="_blank" rel="noopener noreferrer"
+              aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="https://www.instagram.com/"
+              target="_blank" rel="noopener noreferrer"
+              aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/"
+              target="_blank" rel="noopener noreferrer"
+              aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+
+            <a href="https://www.youtube.com/"
+              target="_blank" rel="noopener noreferrer"
+              aria-label="YouTube">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="contact-form">
+          <h3>Send Us a Message</h3>
+
+          <form id="contactForm">
+            <input type="text" name="name"
+              placeholder="Your Full Name" required>
+
+            <input type="email" name="email"
+              placeholder="Your Email Address" required>
+
+            <input type="text" name="subject"
+              placeholder="Subject" required>
+
+            <textarea name="message"
+              placeholder="Your Message"
+              required></textarea>
+
+            <button type="submit" class="primary-btn">
+              <i class="fa-solid fa-paper-plane"></i>
+              Send Message
+            </button>
+          </form>
+
+          <p id="formMessage" role="status"
+            aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-content">
+
+      <div>
+        <h3>
+          <i class="fa-solid fa-cookie-bite"></i>
+          Gharelu Chips
+        </h3>
+        <p>
+          A crunch of happiness in every bite!
+          Bringing smiles through delicious snacks.
+        </p>
+        <p>Founded by Sonam and Shivnarayan.</p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#products">Our Products</a>
+        <a href="#video">Our Video</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+
+      <div>
+        <h3>Contact Information</h3>
+        <a href="tel:9815374858">
+          <i class="fa-solid fa-phone"></i>
+          9815374858
+        </a>
+        <a href="mailto:sonamrauniyar0@gmail.com">
+          <i class="fa-solid fa-envelope"></i>
+          sonamrauniyar0@gmail.com
+        </a>
+        <p>
+          <i class="fa-solid fa-location-dot"></i>
+          Kathmandu, Nepal
+        </p>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      <p>
+        &copy; 2026 Gharelu Chips.
+        All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script src="script.js"></script>
+
+</body>
+</html>
